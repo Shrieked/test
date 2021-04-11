@@ -6,3 +6,5 @@ minimal_mistakes_skin: "aqua"
 # Plugins (previously gems:)
 plugins:
   - jekyll-include-cache
+
+theme: jekyll-theme-cayman
