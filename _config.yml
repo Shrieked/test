@@ -9,6 +9,4 @@ plugins:
 
 # theme: jekyll-theme-cayman
 
-theme: jekyll-theme-chirpy
-
-theme_mode: dark # [light|dark]
+remote_theme: sharu725/hagura
