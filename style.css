@@ -1,51 +1,6 @@
 @import "{{ site.theme }}";
-.btn {
-  color: rgba(255, 255, 255, 0.9);
-}
-.btn:hover {
-  color: white;
-}
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #181818;
-    color: #bac1c4;
-  }
-  .page-header {
-    background-color: #c20d00;
-    background-image: linear-gradient(120deg, #c25100, #c20d00);
-  }
-  .btn {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-color: rgba(0, 0, 0, 0.07);
-  }
-  .btn:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-    border-color: rgba(0, 0, 0, 0.15);
-  }
-  img[src$=".svg"] {
-    filter: invert(1) hue-rotate(180deg);
-  }
-  .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    color: #ff6a33;
-  }
-  a {
-    color: cornflowerblue;
-  }
-  div.highlight {
-    background-color: transparent;
-  }
-  .main-content pre.highlight {
-    background-color: #333;
-    border: solid 2px;
-  }
-  .main-content code {
-    color: #a1c3d3;
-    background-color: #333;
-  }
-  .highlight .ge, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .k, .highlight .kv, .highlight .ow, .highlight .o {
-    color: #fff;
-  }
-  .main-content pre > code {
-    color: #94c8e1;
-  }
+html {
+  --light-text-color: hsl(0, 0%, 60%);
+  --main-background-color: hsl(0, 0%, 10%);
+  --main-text-color: hsl(0, 10%, 80%);
 }
