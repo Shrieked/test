@@ -1,12 +1,11 @@
+theme: jekyll-theme-chirpy
 # Build settings
 # markdown: kramdown
 # remote_theme: mmistakes/minimal-mistakes
 # minimal_mistakes_skin: "aqua"
 
 # Plugins (previously gems:)
-plugins:
-  - jekyll-include-cache
+# plugins:
+#  - jekyll-include-cache
 
 # theme: jekyll-theme-cayman
-
-remote_theme: sharu725/hagura
