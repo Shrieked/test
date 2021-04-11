@@ -139,5 +139,3 @@ Thank you JerreBor (Jero) for the Java usage example, and thank you 88 (lucky sw
 
 ## Disclaimer
 This API is not affiliated nor indorsed by NameMC, Minecraft, Mojang, or Microsoft.
-
-<link href="style.scss" rel="stylesheet"></link>
